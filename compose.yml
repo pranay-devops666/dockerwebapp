@@ -2,12 +2,12 @@
 version: "3"
 services:
  devopsdb:
-   image: pranay419/mynewapp:dbimage
+   image: pranay419/ramrepo:dbimage
    ports:
      - "3306:3306"
 
  application:
-   image: pranay419/mynewapp:appimage
+   image: pranay419/jairepo:appimage
    ports:
      - "1234:8080"
    depends_on:
