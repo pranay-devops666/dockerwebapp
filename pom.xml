@@ -227,5 +227,7 @@
             </executions>
         </plugin>
 
-    </plugins>
+        </plugins>
 </build>
+
+</project>
